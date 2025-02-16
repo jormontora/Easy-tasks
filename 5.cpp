@@ -7,7 +7,7 @@ int main() {
 
     
     std::cout << "Введите радиус(R): ";
-    std::cin >> R; //передаем значение в переменную
+    std::cin >> R; 
 
     
     double ploshyad = pi * R * R; 
@@ -16,7 +16,7 @@ int main() {
     // fixed - фиксированное количество знаков после запятой. setprecision - количество знаков после запятой
     std::cout << std::fixed << std::setprecision(2);
 
-    // вывод
+    
     std::cout << "Площадь: " << ploshyad << std::endl;
     std::cout << "Длинна круга: " << circumLength << std::endl;
 

@@ -15,12 +15,12 @@ int main() {
     std::cin >> C;
 
     
-    double volume = A * B * C; //обьем
+    double volume = A * B * C; 
     
-    //площадь поверхности
+    
     double surface = 2 * (A * B + A * C + B * C);
 
-    //Выводим результат
+    
     std::cout << "обьем: " << volume << std::endl;
     std::cout << "Площадь поверхности: " << surface << std::endl;
 
